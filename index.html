@@ -5,8 +5,45 @@
   </head>
   <body>
     <a-scene>
-      <a-box position="0 1 0" color="red"></a-box>
-      <a-box color="blue"></a-box>
+      <a-box rotation="45 45 0">
+        <a-box color="red" rotation="45 45 45 ">
+          <a-animation
+            attribute="rotation"
+            to="0 -360 0"
+            repeat="indefinite"
+            dur="5000"
+            easing="linear"
+          ></a-animation>
+        </a-box>
+        <a-sphere color="yellow" position="0 0 5"></a-sphere>
+        <a-sphere color="yellow" position="0 2.5 2.5"></a-sphere>
+        <a-sphere color="yellow" position="0 -2.5 2.5"></a-sphere>
+        <a-sphere color="yellow" position="0 0 -5"></a-sphere>
+        <a-sphere color="yellow" position="0 2.5 -2.5"></a-sphere>
+        <a-sphere color="yellow" position="0 -2.5 -2.5"></a-sphere>
+        <a-sphere color="yellow" position="0 5 0"></a-sphere>
+        <a-sphere color="yellow" position="0 -5 0"></a-sphere>
+        <!--  -->
+        <a-sphere color="yellow" position="5 0 5"></a-sphere>
+        <a-sphere color="yellow" position="5 2.5 2.5"></a-sphere>
+        <a-sphere color="yellow" position="5 -2.5 2.5"></a-sphere>
+        <a-sphere color="yellow" position="5 0 -5"></a-sphere>
+        <a-sphere color="yellow" position="5 2.5 -2.5"></a-sphere>
+        <a-sphere color="yellow" position="5 -2.5 -2.5"></a-sphere>
+        <a-sphere color="yellow" position="5 5 0"></a-sphere>
+        <a-sphere color="yellow" position="5 -5 0"></a-sphere>
+        <!--  -->
+        <a-sphere color="yellow" position="-5 0 5"></a-sphere>
+        <a-sphere color="yellow" position="-5 2.5 2.5"></a-sphere>
+        <a-sphere color="yellow" position="-5 -2.5 2.5"></a-sphere>
+        <a-sphere color="yellow" position="-5 0 -5"></a-sphere>
+        <a-sphere color="yellow" position="-5 2.5 -2.5"></a-sphere>
+        <a-sphere color="yellow" position="-5 -2.5 -2.5"></a-sphere>
+        <a-sphere color="yellow" position="-5 5 0"></a-sphere>
+        <a-sphere color="yellow" position="-5 -5 0"></a-sphere>
+        <a-sphere color="yellow" position="5 0 0"></a-sphere>
+        <a-sphere color="yellow" position="-5 0 0"></a-sphere>
+      </a-box>
     </a-scene>
   </body>
 </html>
