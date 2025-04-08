@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Procedural Trees in A-Frame</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene background="color: black">
+      <!--       <a-sky src="images/starmap_2020_4k_print.jpg"></a-sky> -->
+      <a-entity
+        camera
+        look-controls
+        wasd-controls="acceleration: 2000"
+        position="500 0 -150"
+      ></a-entity>
+      <a-sphere
+        id="sun"
+        color="#FFFFF"
+        src="images/Solarsystemscope_texture_2k_sun.jpg"
+        position="-54 1.5 -150"
+        radius="54"
+      >
+        <a-text
+          value="SUN"
+          position="-10 -70 0"
+          width="170"
+          color="white"
+        ></a-text>
+      </a-sphere>
+      <a-sphere
+        id="mercury"
+        color="#FFFFF"
+        src="images/mercury.jpg"
+        position="57 1.5 -150"
+        radius="0.9"
+      >
+        <a-text
+          value="Mercury"
+          position="-20 -70 0"
+          width="170"
+          color="white"
+        ></a-text>
+      </a-sphere>
+      <a-sphere
+        id="venus"
+        color="#FFFFF"
+        src="images/venus.jpg"
+        position="108 1.5 -150"
+        radius="1"
+      >
+        <a-text
+          value="Venus"
+          position="-15 -70 0"
+          width="170"
+          color="white"
+        ></a-text
+      ></a-sphere>
+
+      <a-sphere
+        id="earth"
+        color="#FFFFF"
+        src="images/ojwD8.jpg"
+        position="150 1.5 -150"
+        radius="1"
+      >
+        <a-text
+          value="Earth"
+          position="-15 -70 0"
+          width="170"
+          color="white"
+        ></a-text
+      ></a-sphere>
+
+      <a-sphere
+        id="mars"
+        color="#FFFFF"
+        src="images/mars.jpg"
+        position="227 1.5 -150"
+        radius="1,5"
+      >
+        <a-text
+          value="Mars"
+          position="-15 -70 0"
+          width="170"
+          color="white"
+        ></a-text
+      ></a-sphere>
+
+      <a-sphere
+        id="jupiter"
+        color="#FFFFF"
+        src="images/jupiter.jpg"
+        position="778 1.5 -150"
+        radius="11"
+      >
+        <a-text
+          value="Jupiter"
+          position="-15 -70 0"
+          width="170"
+          color="white"
+        ></a-text
+      ></a-sphere>
+
+      <a-sphere
+        id="saturn"
+        color="#FFFFF"
+        src="images/saturn.jpg"
+        position="1433 1.5 -150"
+        radius="10"
+      >
+        <a-text
+          value="Saturn"
+          position="-15 -70 0"
+          width="170"
+          color="white"
+        ></a-text
+      ></a-sphere>
+
+      <a-sphere
+        id="uranus"
+        color="#FFFFF"
+        src="images/uranus.jpg"
+        position="2872 1.5 -150"
+        radius="4"
+      >
+        <a-text
+          value="Uranus"
+          position="-15 -70 0"
+          width="170"
+          color="white"
+        ></a-text
+      ></a-sphere>
+
+      <a-sphere
+        id="neptune"
+        color="#FFFFF"
+        src="images/neptune.jpg"
+        position="4495 1.5 -150"
+        radius="4"
+        ><a-text
+          value="Neptune"
+          position="-15 -70 0"
+          width="170"
+          color="white"
+        ></a-text
+      ></a-sphere>
+    </a-scene>
+  </body>
+</html>
